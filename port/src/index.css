@@ -1,0 +1,277 @@
+html{
+  scroll-behavior: smooth;
+}
+.top{
+  top: 560px;
+  left: 1230px;
+  position: fixed;
+}
+.pic{
+    height: 500px;
+    margin-top: 25px;
+    margin-left: 120px;
+    border: 3px solid none  ;
+    border-radius: 3%;
+    filter: drop-shadow(0px 0px 15px rgb(90, 33, 180)  );
+}
+.img{
+    height: 510px;
+    padding: 5px;
+    width: 400px;
+
+}
+.sub{
+    height: 500px;
+    width: 400px;
+    padding-top: 100px;
+    margin-right: 250px;
+  
+}
+  
+  .body{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 26px;
+    font-stretch: expanded;
+    color: rgb(52, 142, 216);
+    font-weight: bolder;
+    
+  }
+  button{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(52, 142, 216) ;
+    border:none;
+    border-radius: 7%;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    filter: drop-shadow(0px 0px 15px rgb(52, 142, 216));
+    cursor: pointer;
+  }
+  button :hover{
+    filter: drop-shadow(0px 0px 35px rgb(38, 132, 209));
+  }
+  button a{
+    text-decoration: none;
+    color: white;
+  }
+  button a :hover{
+    text-decoration: none;
+    color: white;
+  }
+.skill{
+  height: 700px;
+  width: 100%;
+  padding: 20px;
+}
+.skill h3{
+  height: 50px;
+  width: 100%;
+  padding-top: 5px;
+  text-align: center;
+  color: white;
+  background-color:rgb(52, 142, 216);
+  font-size: 30px;
+}
+h5{
+  text-align: center;
+  font-size: 25px;
+}
+.skill img{
+  height: 80px;
+  width: fit-content;
+  margin-right: 28px;
+}
+.skill img:hover{
+  filter: drop-shadow(0px 0px 10px rgb(52, 142, 216) );
+  transition: 0.3s ease-in-out;
+}
+.about{
+  height: 50px;
+  text-align: center; 
+  width: 100%;
+  padding-top: 5px;
+  color: white;
+  background-color:rgb(52, 142, 216);
+  font-size: 30px;
+}
+.aboutsub{
+  height: 1150px;
+  text-align: center;
+  font-size: 20px;
+}
+.project-main{
+  height: 650px;
+  width: 100%;
+}
+.project-main h3{
+  height: 50px;
+  width: 100%;
+  padding-top: 5px;
+  text-align: center;
+  color: white;
+  background-color:rgb(52, 142, 216);
+  font-size: 30px;
+}
+
+.project-main h4{
+  font-size: 25px;
+}
+.internship{
+  text-align: center;
+  font-size: 20px;
+}
+
+.project-list{
+  text-align: center;
+  font-size: 20px;
+}
+.projectname{
+  text-decoration: none;
+ font-size: 30px;
+}
+.projectinfo{
+  display: block;
+  text-align: start;
+  padding-left: 29%;
+ text-justify: distribute-all-lines;
+}
+.aboutsub a{
+text-decoration: none;
+}
+@media only screen and (max-width:450px) {
+  .top{
+    top: 730px;
+    left: 330px;
+    position: fixed;
+  }
+  .hire{
+    width: 100px;
+  }
+  .pic{
+      height: 450px;
+      width: 250px;
+     margin-left: 0%;
+      border: 3px solid none  ;
+      border-radius: 3%;
+      filter: drop-shadow(0px 0px 15px rgb(90, 33, 180)  );
+  }
+  .img{
+  }
+  
+  .sub{
+      height: 200px;
+      padding-top: 0px;
+      padding-bottom: 60px;
+  }
+    
+    .body{
+      display: block;
+      margin: 0%;
+      font-size: 24px;
+      color: rgb(52, 142, 216);
+      font-weight: bolder;
+    }
+    button{
+      height: 40px;
+      width: 60px;
+      background-color: rgb(52, 142, 216) ;
+      border:none;
+      border-radius: 7%;
+      color: white;
+      font-size: large;
+      font-weight: 700;
+      filter: drop-shadow(0px 0px 15px rgb(52, 142, 216));
+      cursor: pointer;
+    }
+    button :hover{
+      filter: drop-shadow(0px 0px 35px rgb(38, 132, 209));
+    }
+    button a{
+      text-decoration: none;
+      color: white;
+    }
+    button a :hover{
+      text-decoration: none;
+      color: white;
+    }
+  .skill{
+    height: 850px;
+    width: 100%;
+    padding: 20px;
+  }
+  .skill h3{
+    height: 50px;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    color: white;
+    background-color:rgb(52, 142, 216);
+    font-size: 30px;
+  }
+  h5{
+    text-align: center;
+    font-size: 25px;
+  }
+  .skill img{
+    height: 60px;
+    width: fit-content;
+    margin-right: 28px;
+    padding: 10px;
+  }
+  
+  .about{
+    height: 50px;
+    text-align: center; 
+    width: 100%;
+    padding-top: 5px;
+    color: white;
+    background-color:rgb(52, 142, 216);
+    font-size: 30px;
+  }
+  .aboutsub{
+    height: 2050px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .project-main{
+    height: 850px;
+    width: 100%;
+  }
+  .project-main h3{
+    height: 50px;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    color: white;
+    background-color:rgb(52, 142, 216);
+    font-size: 30px;
+  }
+  
+  .project-main h4{
+    font-size: 25px;
+  }
+  .internship{
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .project-list{
+    text-align: center;
+    font-size: 20px;
+  }
+  .projectname{
+    text-decoration: none;
+   font-size: 30px;
+  }
+  .projectinfo{
+    display: block;
+    text-align: start;
+    padding-left: 10%;
+   text-justify: distribute-all-lines;
+  }
+  
+
+}
