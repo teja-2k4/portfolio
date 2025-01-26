@@ -6,7 +6,7 @@ function Header(){
                 <a href="#about"><li>About</li></a>
                 <a href="#skill"><li>Skills</li></a>
                 <a href="#projects"><li>Projects</li></a>
-                <a href="./resume.docx" download><li>Resume</li></a>
+                <a href="./Eshwar.pdf" download><li>Resume</li></a>
             </ul>
             </div>
             <a href="#nav"> <button className="top" > ⬆</button></a>
